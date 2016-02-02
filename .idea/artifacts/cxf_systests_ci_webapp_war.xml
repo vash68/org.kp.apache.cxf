@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cxf-systests-ci-webapp:war">
+    <output-path>$PROJECT_DIR$/systests/container-integration/webapp/target</output-path>
+    <root id="archive" name="cxf-systests-ci-webapp-3.1.400-SNAPSHOT.war">
+      <element id="artifact" artifact-name="cxf-systests-ci-webapp:war exploded" />
+    </root>
+  </artifact>
+</component>

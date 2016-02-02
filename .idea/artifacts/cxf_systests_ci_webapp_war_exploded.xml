@@ -1,0 +1,59 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="cxf-systests-ci-webapp:war exploded">
+    <output-path>$PROJECT_DIR$/systests/container-integration/webapp/target/cxf-systests-ci-webapp-3.1.400-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="cxf-systests-ci-webapp" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="cxf-rt-transports-http-3.1.400-SNAPSHOT.jar">
+            <element id="module-output" name="cxf-rt-transports-http" />
+          </element>
+          <element id="archive" name="cxf-core-3.1.400-SNAPSHOT.jar">
+            <element id="module-output" name="cxf-core" />
+          </element>
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.4.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:stax2-api:3.1.4" />
+          <element id="library" level="project" name="Maven: org.apache.ws.xmlschema:xmlschema-core:2.2.1" />
+          <element id="archive" name="cxf-rt-frontend-jaxws-3.1.400-SNAPSHOT.jar">
+            <element id="module-output" name="cxf-rt-frontend-jaxws" />
+          </element>
+          <element id="library" level="project" name="Maven: xml-resolver:xml-resolver:1.2" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm:5.0.4" />
+          <element id="archive" name="cxf-rt-bindings-soap-3.1.400-SNAPSHOT.jar">
+            <element id="module-output" name="cxf-rt-bindings-soap" />
+          </element>
+          <element id="archive" name="cxf-rt-wsdl-3.1.400-SNAPSHOT.jar">
+            <element id="module-output" name="cxf-rt-wsdl" />
+          </element>
+          <element id="library" level="project" name="Maven: wsdl4j:wsdl4j:1.6.3" />
+          <element id="archive" name="cxf-rt-databinding-jaxb-3.1.400-SNAPSHOT.jar">
+            <element id="module-output" name="cxf-rt-databinding-jaxb" />
+          </element>
+          <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-impl:2.2.11" />
+          <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-core:2.2.11" />
+          <element id="archive" name="cxf-rt-bindings-xml-3.1.400-SNAPSHOT.jar">
+            <element id="module-output" name="cxf-rt-bindings-xml" />
+          </element>
+          <element id="archive" name="cxf-rt-frontend-simple-3.1.400-SNAPSHOT.jar">
+            <element id="module-output" name="cxf-rt-frontend-simple" />
+          </element>
+          <element id="archive" name="cxf-rt-ws-addr-3.1.400-SNAPSHOT.jar">
+            <element id="module-output" name="cxf-rt-ws-addr" />
+          </element>
+          <element id="archive" name="cxf-rt-ws-policy-3.1.400-SNAPSHOT.jar">
+            <element id="module-output" name="cxf-rt-ws-policy" />
+          </element>
+          <element id="library" level="project" name="Maven: org.apache.neethi:neethi:3.0.3" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.1.7.RELEASE" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/systests/container-integration/webapp/target/cxf-systests-ci-webapp-3.1.400-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="cxf-systests-ci-webapp/web/Web" />
+    </root>
+  </artifact>
+</component>

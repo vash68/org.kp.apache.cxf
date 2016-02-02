@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cxf-services-sts-war:war">
+    <output-path>$PROJECT_DIR$/services/sts/sts-war/target</output-path>
+    <root id="archive" name="SecurityTokenService.war">
+      <element id="artifact" artifact-name="cxf-services-sts-war:war exploded" />
+    </root>
+  </artifact>
+</component>

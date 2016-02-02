@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="gwt" url="file://$PROJECT_DIR$/rt/management-web" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/core" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/integration/cdi" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/osgi/bundle/compatible" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/osgi/karaf/commands" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/bindings/coloc" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/bindings/corba" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/bindings/object" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/bindings/soap" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/bindings/xml" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/databinding/aegis" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/databinding/jaxb" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/databinding/jibx" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/databinding/sdo" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/databinding/xmlbeans" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/features/clustering" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/features/logging" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/features/metrics" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/features/throttling" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/frontend/jaxrs" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/frontend/jaxws" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/frontend/js" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/frontend/simple" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/javascript/javascript-rt" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/javascript/javascript-tests" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/management" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/management-web" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/rs/client" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/rs/description" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/rs/extensions/json-basic" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/rs/extensions/providers" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/rs/extensions/search" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/rs/http-sci" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/rs/security/cors" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/rs/security/jose-parent/jose" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/rs/security/jose-parent/jose-jaxrs" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/rs/security/oauth-parent/oauth" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/rs/security/oauth-parent/oauth2" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/rs/security/oauth-parent/oauth2-saml" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/rs/security/sso/oidc" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/rs/security/sso/saml" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/rs/security/xml" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/security" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/security-saml" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/transports/http" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/transports/http-hc" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/transports/http-jetty" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/transports/http-netty/netty-client" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/transports/http-netty/netty-server" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/transports/jms" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/transports/local" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/transports/udp" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/transports/websocket" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/ws/addr" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/ws/eventing" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/ws/mex" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/ws/policy" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/ws/rm" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/ws/security" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/rt/wsdl" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/services/sts/sts-core" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/services/sts/systests/sts-osgi" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/services/ws-discovery/ws-discovery-api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/services/ws-discovery/ws-discovery-service" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/services/wsn/wsn-api" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/services/wsn/wsn-core" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/services/wsn/wsn-osgi" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/services/xkms/xkms-client" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/services/xkms/xkms-common" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/services/xkms/xkms-osgi" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/services/xkms/xkms-service" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/services/xkms/xkms-x509-handlers" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/services/xkms/xkms-x509-repo-ldap" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/testutils" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/tools/common" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/tools/corba" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/tools/javato/ws" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/tools/validator" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/tools/wadlto/jaxrs" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/tools/wsdlto/core" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/tools/wsdlto/databinding/jaxb" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/tools/wsdlto/frontend/javascript" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/tools/wsdlto/frontend/jaxws" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/tools/wsdlto/misc" />
+    <file type="web" url="file://$PROJECT_DIR$/services/sts/sts-war" />
+    <file type="web" url="file://$PROJECT_DIR$/services/xkms/xkms-war" />
+    <file type="web" url="file://$PROJECT_DIR$/systests/container-integration/webapp" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

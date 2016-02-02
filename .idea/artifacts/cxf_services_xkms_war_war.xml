@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cxf-services-xkms-war:war">
+    <output-path>$PROJECT_DIR$/services/xkms/xkms-war/target</output-path>
+    <root id="archive" name="xkms.war">
+      <element id="artifact" artifact-name="cxf-services-xkms-war:war exploded" />
+    </root>
+  </artifact>
+</component>

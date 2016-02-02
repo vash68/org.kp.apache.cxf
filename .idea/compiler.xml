@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/maven-plugins/archetypes/cxf-jaxws-javafirst/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/maven-plugins/archetypes/cxf-jaxrs-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-systests-jaxrs" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-systests-jaxrs" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-tools-wadlto-jaxrs" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-tools-wadlto-jaxrs" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-systests-databinding" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-systests-databinding" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-wsdl" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-wsdl" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-systests-ws-rm" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-systests-ws-rm" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-systests-ws-specs" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-systests-ws-specs" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-systests-transports-ssl3" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-systests-transports-ssl3" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-tools-wsdlto-databinding-jaxb" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-tools-wsdlto-databinding-jaxb" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-systests-transports" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-systests-transports" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-tools-wsdlto-test" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-tools-wsdlto-test" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-systests-jaxws" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-systests-jaxws" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-tools-misctools" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-tools-misctools" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-systests-transport-jms" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-systests-transport-jms" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-tools-java2ws" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-tools-java2ws" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-tools-wsdlto-core" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-tools-wsdlto-core" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-systests-cdi" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-systests-cdi" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-systests-tracing" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-systests-tracing" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-tools-wsdlto-frontend-jaxws" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-tools-wsdlto-frontend-jaxws" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-systests-http-sci" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-systests-http-sci" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-tools-wsdlto-frontend-javascript" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-tools-wsdlto-frontend-javascript" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-systests-ws-security-examples" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-systests-ws-security-examples" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-systests-ws-security" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-systests-ws-security" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-systests-rs-security" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-systests-rs-security" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-tools-corba" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-tools-corba" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-systests-kerberos" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-systests-kerberos" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-transports-http-hc" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-transports-http-hc" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-transports-http-jetty" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-transports-http-jetty" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-transports-http-netty-server" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-transports-http-netty-server" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-systests-java2ws" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-systests-java2ws" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-security-saml" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-security-saml" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-systests-ci-webapp" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-systests-ci-webapp" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-security" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-security" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-systests-ci-grizzly" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-systests-ci-grizzly" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-transports-http" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-transports-http" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-systests-codegen" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-systests-codegen" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-transports-local" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-transports-local" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-management" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-management" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-management-web" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-management-web" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-systests-jaxrs-jibx" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-systests-jaxrs-jibx" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-systests-databinding-jibx" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-systests-databinding-jibx" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-services-sts-systests-osgi" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-services-sts-systests-osgi" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-services-sts-systests-advanced" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-services-sts-systests-advanced" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-services-sts-systests-basic" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-services-sts-systests-basic" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-services-sts-war" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-services-sts-war" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-services-sts-core" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-services-sts-core" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-services-xkms-x509-handlers" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-services-xkms-x509-handlers" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-services-xkms-common" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-services-xkms-common" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-services-ws-discovery-service" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-services-ws-discovery-service" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-services-ws-discovery-api" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-services-ws-discovery-api" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-services-wsn-osgi" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-services-wsn-osgi" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-services-wsn-core" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-services-wsn-core" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-services-wsn-api" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-services-wsn-api" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-services-sts-systests-itests" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-services-sts-systests-itests" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-services-xkms-x509-repo-ldap" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-services-xkms-x509-repo-ldap" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-tools-validator" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-tools-validator" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-tools-common" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-tools-common" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-services-xkms-war" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-services-xkms-war" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-services-xkms-itests" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-services-xkms-itests" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-services-xkms-osgi" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-services-xkms-osgi" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-testutils" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-testutils" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-services-xkms-service" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-services-xkms-service" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-core" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-core" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-services-xkms-client" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-services-xkms-client" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-systests-uncategorized" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-systests-uncategorized" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-karaf-commands" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-karaf-commands" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-bundle-compatible" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-bundle-compatible" />
+      </profile>
+      <profile default="false" name="Annotation profile for org.apache.cxf.osgi.itests" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="org.apache.cxf.osgi.itests" />
+      </profile>
+      <profile default="false" name="Annotation profile for org.apache.cxf.osgi.itests-felix" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="org.apache.cxf.osgi.itests-felix" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-rs-security-sso-oidc" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-rs-security-sso-oidc" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-rs-security-cors" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-rs-security-cors" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-rs-security-jose" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-rs-security-jose" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-rs-security-jose-jaxrs" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-rs-security-jose-jaxrs" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-rs-security-oauth" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-rs-security-oauth" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-rs-security-oauth2" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-rs-security-oauth2" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-rs-security-oauth2-saml" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-rs-security-oauth2-saml" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-javascript" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-javascript" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-rs-extension-providers" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-rs-extension-providers" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-rs-extension-search" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-rs-extension-search" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-rs-security-xml" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-rs-security-xml" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-rs-security-sso-saml" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-rs-security-sso-saml" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-corbatools-maven-plugin" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-corbatools-maven-plugin" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-wadl2java-plugin" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-wadl2java-plugin" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-jaxws-javafirst" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-jaxws-javafirst" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-jaxrs-service" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-jaxrs-service" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-integration-jca" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-integration-jca" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-javascript-tests" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-javascript-tests" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-integration-tracing-htrace" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-integration-tracing-htrace" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-integration-cdi" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-integration-cdi" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-java2ws-plugin" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-java2ws-plugin" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-codegen-plugin" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-codegen-plugin" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-wsdl-validator-plugin" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-wsdl-validator-plugin" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-java2wadl-plugin" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-java2wadl-plugin" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-bindings-xml" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-bindings-xml" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-bindings-object" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-bindings-object" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-databinding-jibx" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-databinding-jibx" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-bindings-soap" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-bindings-soap" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-features-clustering" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-features-clustering" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-features-logging" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-features-logging" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-bindings-coloc" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-bindings-coloc" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-bindings-corba" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-bindings-corba" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-transports-udp" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-transports-udp" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-transports-websocket" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-transports-websocket" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-transports-http-netty-client" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-transports-http-netty-client" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-transports-jms" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-transports-jms" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-databinding-aegis" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-databinding-aegis" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-databinding-sdo" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-databinding-sdo" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-databinding-jaxb" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-databinding-jaxb" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-databinding-xmlbeans" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-databinding-xmlbeans" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-ws-eventing" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-ws-eventing" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-ws-mex" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-ws-mex" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-ws-rm" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-ws-rm" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-ws-security" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-ws-security" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-rs-json-basic" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-rs-json-basic" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-rs-service-description" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-rs-service-description" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-rs-http-sci" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-rs-http-sci" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-rs-client" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-rs-client" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-frontend-jaxws" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-frontend-jaxws" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-frontend-simple" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-frontend-simple" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-features-throttling" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-features-throttling" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-features-metrics" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-features-metrics" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-ws-addr" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-ws-addr" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-ws-policy" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-ws-policy" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-frontend-js" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-frontend-js" />
+      </profile>
+      <profile default="false" name="Annotation profile for cxf-rt-frontend-jaxrs" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="cxf-rt-frontend-jaxrs" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="apache-cxf" target="1.7" />
+      <module name="cxf" target="1.5" />
+      <module name="cxf-archetypes" target="1.7" />
+      <module name="cxf-bundle-compatible" target="1.7" />
+      <module name="cxf-bundle-parent" target="1.7" />
+      <module name="cxf-codegen-plugin" target="1.7" />
+      <module name="cxf-corbatools-maven-plugin" target="1.7" />
+      <module name="cxf-core" target="1.7" />
+      <module name="cxf-integration" target="1.5" />
+      <module name="cxf-integration-cdi" target="1.7" />
+      <module name="cxf-integration-jca" target="1.7" />
+      <module name="cxf-integration-tracing-htrace" target="1.7" />
+      <module name="cxf-java2wadl-plugin" target="1.7" />
+      <module name="cxf-java2ws-plugin" target="1.7" />
+      <module name="cxf-jaxrs-service" target="1.7" />
+      <module name="cxf-jaxws-javafirst" target="1.7" />
+      <module name="cxf-karaf-commands" target="1.7" />
+      <module name="cxf-maven-plugins" target="1.7" />
+      <module name="cxf-osgi" target="1.5" />
+      <module name="cxf-parent" target="1.7" />
+      <module name="cxf-rt" target="1.5" />
+      <module name="cxf-rt-bindings" target="1.5" />
+      <module name="cxf-rt-bindings-coloc" target="1.7" />
+      <module name="cxf-rt-bindings-corba" target="1.7" />
+      <module name="cxf-rt-bindings-object" target="1.7" />
+      <module name="cxf-rt-bindings-soap" target="1.7" />
+      <module name="cxf-rt-bindings-xml" target="1.7" />
+      <module name="cxf-rt-databinding" target="1.5" />
+      <module name="cxf-rt-databinding-aegis" target="1.7" />
+      <module name="cxf-rt-databinding-jaxb" target="1.7" />
+      <module name="cxf-rt-databinding-jibx" target="1.7" />
+      <module name="cxf-rt-databinding-sdo" target="1.7" />
+      <module name="cxf-rt-databinding-xmlbeans" target="1.7" />
+      <module name="cxf-rt-features" target="1.5" />
+      <module name="cxf-rt-features-clustering" target="1.7" />
+      <module name="cxf-rt-features-logging" target="1.7" />
+      <module name="cxf-rt-features-metrics" target="1.7" />
+      <module name="cxf-rt-features-throttling" target="1.7" />
+      <module name="cxf-rt-frontend" target="1.5" />
+      <module name="cxf-rt-frontend-jaxrs" target="1.7" />
+      <module name="cxf-rt-frontend-jaxws" target="1.7" />
+      <module name="cxf-rt-frontend-js" target="1.7" />
+      <module name="cxf-rt-frontend-simple" target="1.7" />
+      <module name="cxf-rt-javascript" target="1.7" />
+      <module name="cxf-rt-javascript-tests" target="1.7" />
+      <module name="cxf-rt-management" target="1.7" />
+      <module name="cxf-rt-management-web" target="1.7" />
+      <module name="cxf-rt-rs" target="1.5" />
+      <module name="cxf-rt-rs-client" target="1.7" />
+      <module name="cxf-rt-rs-extension-providers" target="1.7" />
+      <module name="cxf-rt-rs-extension-search" target="1.7" />
+      <module name="cxf-rt-rs-http-sci" target="1.7" />
+      <module name="cxf-rt-rs-json-basic" target="1.7" />
+      <module name="cxf-rt-rs-security" target="1.5" />
+      <module name="cxf-rt-rs-security-cors" target="1.7" />
+      <module name="cxf-rt-rs-security-jose" target="1.7" />
+      <module name="cxf-rt-rs-security-jose-jaxrs" target="1.7" />
+      <module name="cxf-rt-rs-security-jose-parent" target="1.5" />
+      <module name="cxf-rt-rs-security-oauth" target="1.7" />
+      <module name="cxf-rt-rs-security-oauth-parent" target="1.7" />
+      <module name="cxf-rt-rs-security-oauth2" target="1.7" />
+      <module name="cxf-rt-rs-security-oauth2-saml" target="1.7" />
+      <module name="cxf-rt-rs-security-sso-oidc" target="1.7" />
+      <module name="cxf-rt-rs-security-sso-saml" target="1.7" />
+      <module name="cxf-rt-rs-security-xml" target="1.7" />
+      <module name="cxf-rt-rs-service-description" target="1.7" />
+      <module name="cxf-rt-security" target="1.7" />
+      <module name="cxf-rt-security-saml" target="1.7" />
+      <module name="cxf-rt-transports" target="1.5" />
+      <module name="cxf-rt-transports-http" target="1.7" />
+      <module name="cxf-rt-transports-http-hc" target="1.7" />
+      <module name="cxf-rt-transports-http-jetty" target="1.7" />
+      <module name="cxf-rt-transports-http-netty-client" target="1.7" />
+      <module name="cxf-rt-transports-http-netty-server" target="1.7" />
+      <module name="cxf-rt-transports-jms" target="1.7" />
+      <module name="cxf-rt-transports-local" target="1.7" />
+      <module name="cxf-rt-transports-udp" target="1.7" />
+      <module name="cxf-rt-transports-websocket" target="1.7" />
+      <module name="cxf-rt-ws" target="1.5" />
+      <module name="cxf-rt-ws-addr" target="1.7" />
+      <module name="cxf-rt-ws-eventing" target="1.7" />
+      <module name="cxf-rt-ws-mex" target="1.7" />
+      <module name="cxf-rt-ws-policy" target="1.7" />
+      <module name="cxf-rt-ws-rm" target="1.7" />
+      <module name="cxf-rt-ws-security" target="1.7" />
+      <module name="cxf-rt-wsdl" target="1.7" />
+      <module name="cxf-runtime-javascript" target="1.7" />
+      <module name="cxf-services" target="1.5" />
+      <module name="cxf-services-sts" target="1.5" />
+      <module name="cxf-services-sts-core" target="1.7" />
+      <module name="cxf-services-sts-systests" target="1.5" />
+      <module name="cxf-services-sts-systests-advanced" target="1.7" />
+      <module name="cxf-services-sts-systests-basic" target="1.7" />
+      <module name="cxf-services-sts-systests-features" target="1.7" />
+      <module name="cxf-services-sts-systests-itests" target="1.7" />
+      <module name="cxf-services-sts-systests-osgi" target="1.7" />
+      <module name="cxf-services-sts-war" target="1.7" />
+      <module name="cxf-services-ws-discovery" target="1.5" />
+      <module name="cxf-services-ws-discovery-api" target="1.7" />
+      <module name="cxf-services-ws-discovery-service" target="1.7" />
+      <module name="cxf-services-wsn" target="1.5" />
+      <module name="cxf-services-wsn-api" target="1.7" />
+      <module name="cxf-services-wsn-core" target="1.7" />
+      <module name="cxf-services-wsn-osgi" target="1.7" />
+      <module name="cxf-services-xkms" target="1.5" />
+      <module name="cxf-services-xkms-client" target="1.7" />
+      <module name="cxf-services-xkms-common" target="1.7" />
+      <module name="cxf-services-xkms-features" target="1.7" />
+      <module name="cxf-services-xkms-itests" target="1.7" />
+      <module name="cxf-services-xkms-osgi" target="1.7" />
+      <module name="cxf-services-xkms-service" target="1.7" />
+      <module name="cxf-services-xkms-war" target="1.7" />
+      <module name="cxf-services-xkms-x509-handlers" target="1.7" />
+      <module name="cxf-services-xkms-x509-repo-ldap" target="1.7" />
+      <module name="cxf-systests" target="1.5" />
+      <module name="cxf-systests-cdi" target="1.7" />
+      <module name="cxf-systests-ci-grizzly" target="1.7" />
+      <module name="cxf-systests-ci-webapp" target="1.7" />
+      <module name="cxf-systests-codegen" target="1.7" />
+      <module name="cxf-systests-container-integration" target="1.7" />
+      <module name="cxf-systests-databinding" target="1.7" />
+      <module name="cxf-systests-databinding-jibx" target="1.7" />
+      <module name="cxf-systests-http-sci" target="1.7" />
+      <module name="cxf-systests-java2ws" target="1.7" />
+      <module name="cxf-systests-jaxrs" target="1.7" />
+      <module name="cxf-systests-jaxrs-jibx" target="1.7" />
+      <module name="cxf-systests-jaxws" target="1.7" />
+      <module name="cxf-systests-jibx" target="1.7" />
+      <module name="cxf-systests-kerberos" target="1.7" />
+      <module name="cxf-systests-rs-security" target="1.7" />
+      <module name="cxf-systests-tracing" target="1.7" />
+      <module name="cxf-systests-transport-jms" target="1.7" />
+      <module name="cxf-systests-transports" target="1.7" />
+      <module name="cxf-systests-transports-ssl3" target="1.7" />
+      <module name="cxf-systests-uncategorized" target="1.7" />
+      <module name="cxf-systests-ws-rm" target="1.7" />
+      <module name="cxf-systests-ws-security" target="1.7" />
+      <module name="cxf-systests-ws-security-examples" target="1.7" />
+      <module name="cxf-systests-ws-specs" target="1.7" />
+      <module name="cxf-testutils" target="1.7" />
+      <module name="cxf-tools" target="1.5" />
+      <module name="cxf-tools-common" target="1.7" />
+      <module name="cxf-tools-corba" target="1.7" />
+      <module name="cxf-tools-java2ws" target="1.7" />
+      <module name="cxf-tools-javato" target="1.5" />
+      <module name="cxf-tools-misctools" target="1.7" />
+      <module name="cxf-tools-validator" target="1.7" />
+      <module name="cxf-tools-wadlto" target="1.5" />
+      <module name="cxf-tools-wadlto-jaxrs" target="1.7" />
+      <module name="cxf-tools-wsdlto" target="1.5" />
+      <module name="cxf-tools-wsdlto-core" target="1.7" />
+      <module name="cxf-tools-wsdlto-databinding-jaxb" target="1.7" />
+      <module name="cxf-tools-wsdlto-frontend-javascript" target="1.7" />
+      <module name="cxf-tools-wsdlto-frontend-jaxws" target="1.7" />
+      <module name="cxf-tools-wsdlto-test" target="1.7" />
+      <module name="cxf-wadl2java-plugin" target="1.7" />
+      <module name="cxf-wsdl-maven" target="1.5" />
+      <module name="cxf-wsdl-validator-plugin" target="1.7" />
+      <module name="karaf-parent" target="1.7" />
+      <module name="org.apache.cxf.osgi.itests" target="1.7" />
+      <module name="org.apache.cxf.osgi.itests-felix" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

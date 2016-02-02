@@ -1,0 +1,101 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="cxf-services-xkms-war:war exploded">
+    <output-path>$PROJECT_DIR$/services/xkms/xkms-war/target/xkms</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="cxf-services-xkms-war" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="cxf-rt-frontend-jaxws-3.1.400-SNAPSHOT.jar">
+            <element id="module-output" name="cxf-rt-frontend-jaxws" />
+          </element>
+          <element id="library" level="project" name="Maven: xml-resolver:xml-resolver:1.2" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm:5.0.4" />
+          <element id="archive" name="cxf-core-3.1.400-SNAPSHOT.jar">
+            <element id="module-output" name="cxf-core" />
+          </element>
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.4.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:stax2-api:3.1.4" />
+          <element id="library" level="project" name="Maven: org.apache.ws.xmlschema:xmlschema-core:2.2.1" />
+          <element id="archive" name="cxf-rt-bindings-soap-3.1.400-SNAPSHOT.jar">
+            <element id="module-output" name="cxf-rt-bindings-soap" />
+          </element>
+          <element id="archive" name="cxf-rt-wsdl-3.1.400-SNAPSHOT.jar">
+            <element id="module-output" name="cxf-rt-wsdl" />
+          </element>
+          <element id="library" level="project" name="Maven: wsdl4j:wsdl4j:1.6.3" />
+          <element id="archive" name="cxf-rt-databinding-jaxb-3.1.400-SNAPSHOT.jar">
+            <element id="module-output" name="cxf-rt-databinding-jaxb" />
+          </element>
+          <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-impl:2.2.11" />
+          <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-core:2.2.11" />
+          <element id="archive" name="cxf-rt-bindings-xml-3.1.400-SNAPSHOT.jar">
+            <element id="module-output" name="cxf-rt-bindings-xml" />
+          </element>
+          <element id="archive" name="cxf-rt-frontend-simple-3.1.400-SNAPSHOT.jar">
+            <element id="module-output" name="cxf-rt-frontend-simple" />
+          </element>
+          <element id="archive" name="cxf-rt-ws-addr-3.1.400-SNAPSHOT.jar">
+            <element id="module-output" name="cxf-rt-ws-addr" />
+          </element>
+          <element id="archive" name="cxf-rt-ws-policy-3.1.400-SNAPSHOT.jar">
+            <element id="module-output" name="cxf-rt-ws-policy" />
+          </element>
+          <element id="library" level="project" name="Maven: org.apache.neethi:neethi:3.0.3" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-jdk14:1.7.12" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.12" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.1.7.RELEASE" />
+          <element id="archive" name="cxf-services-xkms-common-3.1.400-SNAPSHOT.jar">
+            <element id="module-output" name="cxf-services-xkms-common" />
+          </element>
+          <element id="library" level="project" name="Maven: org.apache.wss4j:wss4j-ws-security-dom:2.1.4" />
+          <element id="library" level="project" name="Maven: org.apache.wss4j:wss4j-ws-security-common:2.1.4" />
+          <element id="library" level="project" name="Maven: org.apache.santuario:xmlsec:2.0.5" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
+          <element id="library" level="project" name="Maven: org.opensaml:opensaml-saml-impl:3.1.1" />
+          <element id="library" level="project" name="Maven: org.opensaml:opensaml-profile-api:3.1.1" />
+          <element id="library" level="project" name="Maven: org.opensaml:opensaml-core:3.1.1" />
+          <element id="library" level="project" name="Maven: org.opensaml:opensaml-saml-api:3.1.1" />
+          <element id="library" level="project" name="Maven: org.opensaml:opensaml-xmlsec-api:3.1.1" />
+          <element id="library" level="project" name="Maven: org.opensaml:opensaml-soap-api:3.1.1" />
+          <element id="library" level="project" name="Maven: org.opensaml:opensaml-security-impl:3.1.1" />
+          <element id="library" level="project" name="Maven: org.opensaml:opensaml-security-api:3.1.1" />
+          <element id="library" level="project" name="Maven: org.cryptacular:cryptacular:1.0" />
+          <element id="library" level="project" name="Maven: org.bouncycastle:bcprov-jdk15on:1.52" />
+          <element id="library" level="project" name="Maven: org.opensaml:opensaml-xmlsec-impl:3.1.1" />
+          <element id="library" level="project" name="Maven: net.shibboleth.utilities:java-support:7.1.1" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:18.0" />
+          <element id="library" level="project" name="Maven: joda-time:joda-time:2.7" />
+          <element id="library" level="project" name="Maven: org.opensaml:opensaml-xacml-impl:3.1.1" />
+          <element id="library" level="project" name="Maven: org.opensaml:opensaml-xacml-api:3.1.1" />
+          <element id="library" level="project" name="Maven: org.opensaml:opensaml-xacml-saml-impl:3.1.1" />
+          <element id="library" level="project" name="Maven: org.opensaml:opensaml-xacml-saml-api:3.1.1" />
+          <element id="library" level="project" name="Maven: org.jasypt:jasypt:1.9.2" />
+          <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-javamail_1.4_spec:1.7.1" />
+          <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache:2.9.0" />
+          <element id="archive" name="cxf-services-xkms-service-3.1.400-SNAPSHOT.jar">
+            <element id="module-output" name="cxf-services-xkms-service" />
+          </element>
+          <element id="archive" name="cxf-services-xkms-x509-handlers-3.1.400-SNAPSHOT.jar">
+            <element id="module-output" name="cxf-services-xkms-x509-handlers" />
+          </element>
+          <element id="archive" name="cxf-services-xkms-x509-repo-ldap-3.1.400-SNAPSHOT.jar">
+            <element id="module-output" name="cxf-services-xkms-x509-repo-ldap" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/services/xkms/xkms-war/target/xkms/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="cxf-services-xkms-war/web/Web" />
+    </root>
+  </artifact>
+</component>

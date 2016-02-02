@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: javax.el:javax.el-api:3.0-b02">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/el/javax.el-api/3.0-b02/javax.el-api-3.0-b02.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/el/javax.el-api/3.0-b02/javax.el-api-3.0-b02-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/el/javax.el-api/3.0-b02/javax.el-api-3.0-b02-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

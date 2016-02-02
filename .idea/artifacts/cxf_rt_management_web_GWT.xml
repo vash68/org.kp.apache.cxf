@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact name="cxf-rt-management-web:GWT">
+    <output-path>$PROJECT_DIR$/rt/management-web/target/war/WEB-INF/classes/static-content</output-path>
+    <root id="root">
+      <element id="gwt-compiler-output" facet="cxf-rt-management-web/gwt/GWT" />
+    </root>
+  </artifact>
+</component>

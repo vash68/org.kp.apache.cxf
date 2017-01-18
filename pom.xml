@@ -24,7 +24,7 @@
     <!-- ivashkulat 2-2-2016
     Changed CXF version from 3.1.4 (official CXF release)  to 3.1.400-SNAPSHOT due to our own mods to cxf-core pom module, see AttachmentSerializer.java.
      We will be hosting this version of CXF locally at Kaiser -->
-    <version>3.1.400-SNAPSHOT</version>
+    <version>3.1.400</version>
     <name>Apache CXF</name>
     <description>Apache CXF is an open-source services framework that aids in 
     the development of services using front-end programming APIs, like JAX-WS 
@@ -44,6 +44,26 @@
     <prerequisites>
         <maven>3.0</maven>
     </prerequisites>
+    <parent>
+     	<groupId>org.kp.hp.ci</groupId>
+    	<artifactId>kp-parent</artifactId>
+    	<version>1.0.0</version>
+    </parent>
+
+
+ <!-- The following properties are inherited from parent pom and can be overriden here:
+ <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <jdk.version>1.8</jdk.version>
+    &lt;!&ndash;ivashkulat: maven plugin versions as of 1-2017&ndash;&gt;
+    <maven-release-plugin.version>2.5.3</maven-release-plugin.version>
+    <maven-compiler-plugin.version>3.0</maven-compiler-plugin.version>
+Add a comment to this line
+    <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
+    <maven-javadoc-plugin.version>2.10.4</maven-javadoc-plugin.version>
+    <maven-deploy-plugin.version>2.8.2</maven-deploy-plugin.version>
+  </properties>-->
+  
     <properties>
         <cxf.compiler.fork>false</cxf.compiler.fork>
         <cxf.build-utils.version>3.1.0</cxf.build-utils.version>

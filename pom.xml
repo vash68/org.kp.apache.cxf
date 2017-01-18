@@ -74,23 +74,39 @@ Add a comment to this line
     </properties>
     <distributionManagement>
 
-        <!--<repository>
-            <id>apache.releases.https</id>
-            <name>Apache Release Distribution Repository</name>
-            <url>https://repository.apache.org/service/local/staging/deploy/maven2</url>
-        </repository>-->
 
-        <!--ivashkulat
+
+        <!--ivashkulat   - this is a short cut to install this patch of CXF from local env into our Archiva repo without Jenkins build:
+
         https://archiva.apache.org/docs/1.4-M4/userguide/deploy.html
         http://www.avajava.com/tutorials/lessons/how-do-i-deploy-an-artifact-to-an-archiva-repository.html
-        -->
+
         <repository>
             <id>archiva-internal</id>
             <name>Internal Release Repository</name>
             <url>http://cnwdcccvd080.cdbt.wcdc.kp.org:8081/repository/internal</url>
         </repository>
 
-        <!--<snapshotRepository>
+          <snapshotRepository>
+            <id>archiva-snapshots</id>
+            <name>Internal Snapshot Repository</name>
+            <url>http://cnwdcccvd080.cdbt.wcdc.kp.org:8081/repository/snapshots</url>
+        </snapshotRepository>
+        -->
+
+
+
+
+        <!--
+
+          <repository>
+            <id>apache.releases.https</id>
+            <name>Apache Release Distribution Repository</name>
+            <url>https://repository.apache.org/service/local/staging/deploy/maven2</url>
+        </repository>
+
+
+        <snapshotRepository>
             <id>apache.snapshots.https</id>
             <name>Apache Development Snapshot Repository</name>
             <url>https://repository.apache.org/content/repositories/snapshots</url>
@@ -98,11 +114,7 @@ Add a comment to this line
         </snapshotRepository>-->
 
 
-        <snapshotRepository>
-            <id>archiva-snapshots</id>
-            <name>Internal Snapshot Repository</name>
-            <url>http://cnwdcccvd080.cdbt.wcdc.kp.org:8081/repository/snapshots</url>
-        </snapshotRepository>
+
 
         <site>
             <id>apache.cxf.site</id>
